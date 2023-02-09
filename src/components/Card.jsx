@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import Img from "../assets/image-product-desktop.jpg"
+import ImgMobile from "../assets/image-product-mobile.jpg"
 
 export default function Card() {
 
@@ -7,8 +9,8 @@ export default function Card() {
         <div className="mainCard">
             <div className="mainContainer">
                 <div>
-                    <img className="cardImg cardImgm" alt="img" src="src\assets\image-product-desktop.jpg"/>
-                    <img className="cardImgMobile" alt="img" src="src\assets\image-product-mobile.jpg"/>
+                    <img className="cardImg cardImgm" alt="img" src={Img}/>
+                    <img className="cardImgMobile" alt="img" src={ImgMobile}/>
                 </div>
                 <div className="cardInfo">
                     <div className="cardType">Perfume</div>
